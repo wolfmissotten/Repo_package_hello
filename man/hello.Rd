@@ -6,6 +6,15 @@
 \usage{
 hello(name = "world")
 }
+\arguments{
+\item{name}{char}
+}
+\value{
+char
+}
 \description{
 Says hello
+}
+\examples{
+hello('wolf')
 }

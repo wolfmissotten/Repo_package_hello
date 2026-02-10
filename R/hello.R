@@ -10,5 +10,3 @@ hello <- function(name = 'world') {
 }
 
 
-
-

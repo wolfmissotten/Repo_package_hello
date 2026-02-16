@@ -1,13 +1,13 @@
 #' Says hello
 #'
-#' @param name char
-#' @return char
+#' 'hello()' inserts the word hello before a word, that should be a character, that is inserted.
+#'
+#' @param word Input of the type character
+#' @return character.
 #' @export
 #' @examples
 #' hello('wolf')
-hello <- function(name = 'world') {
-  assertthat::assert_that(is.character(name), msg = "Name must be a character.")
-  paste('Hello', name)
+hello <- function(word = 'world') {
+  assertthat::assert_that(is.character(word), msg = "Word must be a character.")
+  paste('Hello', word)
 }
-
-

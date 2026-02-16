@@ -4,16 +4,16 @@
 \alias{hello}
 \title{Says hello}
 \usage{
-hello(name = "world")
+hello(word = "world")
 }
 \arguments{
-\item{name}{char}
+\item{word}{Input of the type character}
 }
 \value{
-char
+character.
 }
 \description{
-Says hello
+'hello()' inserts the word hello before a word, that should be a character, that is inserted.
 }
 \examples{
 hello('wolf')

@@ -1,0 +1,17 @@
+# hello
+
+This is a dummy package named hello, that momentarily only includes the
+function hello()
+
+# Package index
+
+## All functions
+
+- [`hello()`](https://wolfmissotten.github.io/Repo_package_hello/reference/hello.md)
+  : Says hello
+
+# Articles
+
+### All vignettes
+
+- [hello](https://wolfmissotten.github.io/Repo_package_hello/articles/hello.md):

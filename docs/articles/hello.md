@@ -16,7 +16,7 @@ library(assertthat) #niet super zeker of dit hier wel moet staan, dit is de enig
 ## Hello function
 
 You can use the function [`hello()`](../reference/hello.md) to add the
-word *Hello* in front of a string. For example, for the word ‘world’:
+word *Hello* in front of a string. For example, for the word *world*:
 
 ``` r
 string <- 'world'

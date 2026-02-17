@@ -5,7 +5,7 @@
 - [`hello()`](https://wolfmissotten.github.io/Repo_package_hello/reference/hello.md)
   : Says hello
 - [`hello_detect_language()`](https://wolfmissotten.github.io/Repo_package_hello/reference/hello_detect_language.md)
-  : Detect language
+  : Detects language
 
 ## Data
 

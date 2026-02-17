@@ -1,4 +1,4 @@
-# Detect language
+# Detects language
 
 'hello_detect_language()' detects the language of basic greetings in
 English, French, Spanish, German and Italian

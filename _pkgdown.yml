@@ -2,7 +2,8 @@ url: https://wolfmissotten.github.io/Repo_package_hello/
 template:
   bootstrap: 5
 
+
 reference:
 - title: Functions
   contents:
-  - has_concept("hello")
+  - hello

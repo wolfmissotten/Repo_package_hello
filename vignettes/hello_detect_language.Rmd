@@ -1,0 +1,34 @@
+---
+title: "hello_detect_language"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{hello_detect_language}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+This vignette briefly shows an example of how the dummy package hello and its function `hello_detect_language()` can be used in a workflow. 
+
+## Setup
+
+Load packages: 
+```{r}
+library(hello)
+library(assertthat) #niet super zeker of dit hier wel moet staan, dit is de enige Imports bij DESCRIPTION package
+```
+
+## Hello_detect_language function
+You can use the function `hello_detect_language()` to detects the language of basic greetings in English, French, Spanish, German and Italian
+```{r}
+string <- 'bonjour'
+
+example <- hello_detect_language(word = string)
+
+print(example)
+```

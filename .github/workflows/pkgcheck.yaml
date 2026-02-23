@@ -16,10 +16,6 @@ on:
   pull_request:
     branches:
       - main
-  # Run on every push to main
-  push:
-    branches:
-      - main
 
 jobs:
   pkgcheck:

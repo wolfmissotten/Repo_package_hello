@@ -13,7 +13,8 @@ hello_detect_language(greeting)
 character vector
 }
 \description{
-'hello_detect_language()' detects the language of basic greetings in English, French, Spanish, German and Italian
+'hello_detect_language()' detects the language of
+basic greetings in English, French, Spanish, German and Italian
 }
 \examples{
 hello_detect_language('bonjour')

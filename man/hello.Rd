@@ -13,7 +13,8 @@ hello(word = "world")
 character.
 }
 \description{
-'hello()' inserts the word hello before a word, that should be a character, that is inserted.
+'hello()' inserts the word hello before a word,
+that should be a character, that is inserted.
 }
 \examples{
 hello('wolf')

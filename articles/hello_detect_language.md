@@ -11,7 +11,6 @@ Load packages:
 
 ``` r
 library(hello)
-library(assertthat) #niet super zeker of dit hier wel moet staan, dit is de enige Imports bij DESCRIPTION package
 ```
 
 ## Hello_detect_language function

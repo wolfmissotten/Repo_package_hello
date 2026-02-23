@@ -20,7 +20,6 @@ This vignette briefly shows an example of how the dummy package hello and its fu
 Load packages: 
 ```{r}
 library(hello)
-library(assertthat) #niet super zeker of dit hier wel moet staan, dit is de enige Imports bij DESCRIPTION package
 ```
 
 ## Hello function

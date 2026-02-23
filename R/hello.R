@@ -1,6 +1,7 @@
 #' Says hello
 #'
-#' 'hello()' inserts the word hello before a word, that should be a character, that is inserted.
+#' 'hello()' inserts the word hello before a word,
+#' that should be a character, that is inserted.
 #'
 #' @param word Input of the type character
 #' @return character.

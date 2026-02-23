@@ -6,6 +6,10 @@ concurrency:
   cancel-in-progress: true
 
 on:
+  workflow_run:
+    workflows: ["R-CMD-check.yaml", "test-coverage.yaml"]
+    types: [completed]
+    branches: [main, master]
   # Manually trigger the Action under Actions/pkgcheck
   workflow_dispatch:
   # Run on every PR to main

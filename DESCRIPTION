@@ -17,6 +17,7 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
 VignetteBuilder: knitr
 URL: https://wolfmissotten.github.io/hello/
+BugReports: https://github.com/wolfmissotten/hello/issues
 Depends: 
     R (>= 3.5)
 LazyData: true

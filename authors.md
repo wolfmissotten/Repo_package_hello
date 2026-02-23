@@ -6,6 +6,9 @@
 
 ## Citation
 
+Source:
+[`DESCRIPTION`](https://github.com/wolfmissotten/hello/blob/main/DESCRIPTION)
+
 M W (2026). *hello: What the Package Does (One Line, Title Case)*. R
 package version 1.0.0, <https://wolfmissotten.github.io/hello/>.
 

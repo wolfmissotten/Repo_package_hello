@@ -16,6 +16,20 @@ on:
     branches:
       - main
 
+on:
+  # Manually trigger the Action under Actions/pkgcheck
+  workflow_dispatch:
+  # Run on every PR to main
+  pull_request:
+    branches:
+      - main
+  # Run on every push to main, wait for R-CMD-check
+  # and test-coverage to complete
+  workflow_run:
+    workflows: ["R-CMD-check", "test-coverage"]
+    types: [completed]
+    branches: [main]
+
 jobs:
   pkgcheck:
     runs-on: ubuntu-latest

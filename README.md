@@ -6,4 +6,3 @@ To get started, see [Get started](https://wolfmissotten.github.io/Repo_package_h
 [![R-CMD-check](https://github.com/wolfmissotten/hello/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/wolfmissotten/hello/actions/workflows/R-CMD-check.yaml)
 [![test-coverage](https://github.com/wolfmissotten/hello/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/wolfmissotten/hello/actions/workflows/test-coverage.yaml)
 <!-- badges: end -->
-

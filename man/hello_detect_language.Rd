@@ -2,9 +2,12 @@
 % Please edit documentation in R/hello_detect_language.R
 \name{hello_detect_language}
 \alias{hello_detect_language}
+\alias{hello_detect_languages}
 \title{Detects language}
 \usage{
 hello_detect_language(greeting)
+
+hello_detect_languages(greeting)
 }
 \arguments{
 \item{greeting}{Input is a character vector}
@@ -15,6 +18,10 @@ character vector
 \description{
 'hello_detect_language()' detects the language of
 basic greetings in English, French, Spanish, German and Italian
+}
+\details{
+\code{hello_detect_language()} and \code{hello_detect_languages()} are
+synonyms.
 }
 \examples{
 hello_detect_language('bonjour')

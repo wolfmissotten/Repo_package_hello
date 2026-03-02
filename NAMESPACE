@@ -2,3 +2,4 @@
 
 export(hello)
 export(hello_detect_language)
+export(hello_detect_languages)
